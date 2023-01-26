@@ -97,6 +97,12 @@ header {
     border: none;
 }
 
+/* main */
+
+main {
+    background-color: black;
+}
+
 /* Primeira Section */
 
 .tv {
@@ -209,6 +215,42 @@ header {
     margin: 36px auto;
     margin-left: 45px;
 }
+
+/* Terceira Section */
+
+.tv-infantil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-right: 35px;
+    margin-left: 90px;
+}
+
+.secao-text-infantil {
+    width: 50%;
+    color: snow;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.secao-text-infantil h1 {
+    line-height: 1em;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.secao-text-infantil h2 {
+    width: 70%;
+    line-height: 2em;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tv-infantil img {
+    width: 50%;
+}
+
 
 @media screen and (max-width: 768px) {
     header {
